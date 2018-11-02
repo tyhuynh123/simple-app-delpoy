@@ -1,4 +1,6 @@
-Please add your AWS Secret 
+Please add your AWS Access and Secret Keys in the 
+Please add your Key Pair 
+
 
 
 Run your Ansible Playbook <ansible-playbook -i host deploy_mydemosite.yml>
