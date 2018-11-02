@@ -1,3 +1,5 @@
+Please add your AWS Secret 
+
 
 Run your Ansible Playbook <ansible-playbook -i host deploy_mydemosite.yml>
 
