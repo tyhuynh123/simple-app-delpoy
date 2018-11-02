@@ -1,8 +1,5 @@
-Please add your AWS Access and Secret Keys in the 
-Please add your Key Pair 
-
-
-
+Please add your AWS Access and Secret Keys to build.tf 
+Please add your Key Pair to the build.tf
 Run your Ansible Playbook <ansible-playbook -i host deploy_mydemosite.yml>
 
 
