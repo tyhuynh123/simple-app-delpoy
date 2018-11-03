@@ -1,3 +1,7 @@
 Please add your access_key and secret_key to build.tf 
+
 Please add your Key Pair to the key_name in build.tf
-Run your Ansible Playbook <ansible-playbook -i host deploy_mydemosite.yml
+
+Run your Ansible Playbook <ansible-playbook -i host deploy_mydemosite.yml>
+
+Please at hostname of your EC2 instance and run ansible-playbook -i host
