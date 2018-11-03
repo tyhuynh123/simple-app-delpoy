@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "AKIAJGQMEI45D3MYLFDQ"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
   region     = "us-east-1"
 }
 
@@ -12,6 +12,6 @@ resource "aws_instance" "ec2" {
   count         = 3 
   ami           = "${var.ami}"
   instance_type = "${var.instance_type}"
-  key_name      = "deploy"
+  key_name      = ""
 }
 
