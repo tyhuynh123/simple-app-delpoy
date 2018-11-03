@@ -6,6 +6,8 @@ Please add your access_key and secret_key to build.tf
 
 Please add your Key Pair to the key_name in build.tf
 
+Just run terraform plan to see your results and then run terraform apply to build your ec2 instance
+
 TO DEPLOY YOUR WEBAPP RUN THE ANSIBLE PLAYBOOK BELOW!!!
 
 <ansible-playbook -i host deploy_mydemosite.yml>
