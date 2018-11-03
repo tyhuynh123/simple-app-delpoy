@@ -2,6 +2,10 @@ Please add your access_key and secret_key to build.tf
 
 Please add your Key Pair to the key_name in build.tf
 
+TO DEPLOY YOUR WEBAPP RUN THE ANSIBLE PLAYBOOK BELOW!!!
+
 Run your Ansible Playbook <ansible-playbook -i host deploy_mydemosite.yml>
 
-Please at hostname of your EC2 instance and run ansible-playbook -i host
+TO UPDATE YOUR INSTANCE RUN THE PLAYBOOK BELOW
+
+Please edit your ansible host file and add your hostname or IP address of your EC2 instance and run <ansible-playbook -i host update-webapp.yml>
